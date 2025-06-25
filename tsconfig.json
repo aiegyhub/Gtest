@@ -1,0 +1,19 @@
+{
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ],
+  "compilerOptions": {
+    // Enforce strictness across the entire project workspace.
+    // This is a best practice for robust, maintainable code.
+    "strict": true,
+    "skipLibCheck": true,
+    
+    // Path aliases for consistent imports.
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  }
+}

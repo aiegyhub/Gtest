@@ -1,0 +1,56 @@
+{
+  "name": "توب كلينرز | خدمات التنظيف والصيانة",
+  "short_name": "توب كلينرز",
+  "description": "منصة توب كلينرز لجميع خدمات التنظيف والصيانة المنزلية الاحترافية في المملكة العربية السعودية.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2563eb",
+  "orientation": "portrait-primary",
+  "lang": "ar",
+  "dir": "rtl",
+  "categories": ["business", "utilities", "lifestyle", "housekeeping"],
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "طلب خدمة تنظيف",
+      "short_name": "تنظيف",
+      "description": "اطلب خدمة تنظيف احترافية من توب كلينرز",
+      "url": "/services/home-cleaning",
+      "icons": [{ "src": "/icons/cleaning-icon.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "حجز صيانة مكيفات",
+      "short_name": "صيانة",
+      "description": "اطلب خدمة صيانة وإصلاح المكيفات",
+      "url": "/services/ac-maintenance",
+      "icons": [{ "src": "/icons/ac-icon.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "تواصل معنا",
+      "short_name": "اتصال",
+      "description": "تواصل مباشرة مع خدمة عملاء توب كلينرز",
+      "url": "/contact",
+      "icons": [{ "src": "/icons/contact-icon.png", "sizes": "96x96" }]
+    }
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false,
+  "scope": "/",
+  "edge_side_panel": {
+    "preferred_width": 400
+  }
+}

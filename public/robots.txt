@@ -1,0 +1,23 @@
+# Instructions for all web crawlers
+User-agent: *
+Disallow: /admin/
+Disallow: /api/
+
+# Allow all other content
+Allow: /
+
+# Block specific third-party crawlers
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+# Sitemap location
+Sitemap: https://top-cleaners.net/sitemap.xml
